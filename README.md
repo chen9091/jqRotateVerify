@@ -2,14 +2,14 @@
 jQuery滑动图片角度插件，仿baidu登录，用canvas画图 rotate转动
 ## 使用
 ```
-				var myRotateVerify = new RotateVerify('#rotateWrap',{
-					initText:'滑动将图片转正',//默认
-					slideImage:['image/1.jpg','image/2.jpg','image/4.jpg'],//arr  [imgsrc1,imgsrc2] 或者str 'imgsrc1'
-					slideAreaNum:10,// 误差范围角度 +- 10(默认)
-				    getSuccessState:function (res) {//验证通过 返回  true;
-				        console.log('例1' + res);
-				    }
-				})
+var myRotateVerify = new RotateVerify('#rotateWrap',{
+	initText:'滑动将图片转正',//默认
+	slideImage:['image/1.jpg','image/2.jpg','image/4.jpg'],//arr  [imgsrc1,imgsrc2] 或者str 'imgsrc1'
+	slideAreaNum:10,// 误差范围角度 +- 10(默认)
+    getSuccessState:function (res) {//验证通过 返回  true;
+	console.log('例1' + res);
+    }
+})
 ```
 ## 参数
 
@@ -20,8 +20,8 @@ jQuery滑动图片角度插件，仿baidu登录，用canvas画图 rotate转动
 ## 重置方法
 
 ```
-	resetSlide()
-	//myRotateVerify.resetSlide()
+resetSlide()
+//myRotateVerify.resetSlide()
 ```
 ## 获取验证状态
 
